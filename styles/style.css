@@ -1,1 +1,45 @@
+/*
+* --------------------------------------------
+* These are some styles of customizing 
+* to over-ride the default bootstrap ones
+*---------------------------------------------
+*/
 
+/*Given Colors:
+Darkest: #03045e
+#0077b6
+#00b4d8
+#90e0ef
+Lightest: #caf0f8
+*/
+
+.navbar-brand{
+    font-family: 'Young Serif', serif;
+    font-size: 2.25rem;
+}
+
+.bg-info {
+    background-color:#00b4d8 !important; 
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #caf0f8; 
+}
+
+.btn-info {
+    color: #caf0f8;
+    background-color: #90e0ef; 
+    border-color: #00b4d8; 
+}
+
+.btn-primary {
+    color: #caf0f8;
+    font-size: 150%;
+    background-color: #03045e;
+    border-color: #03045e;
+    border-width: thick;
+}
+
+body {
+    background-color: #caf0f8;
+}
